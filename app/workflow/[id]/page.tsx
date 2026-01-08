@@ -103,7 +103,7 @@ export default function EditWorkflowPage() {
                 </div>
             </div>
 
-            <div className="flex-1 flex">
+            <div className="flex-1 flex overflow-hidden">
                 <WorkflowCanvas
                     initialNodes={nodes}
                     initialEdges={edges}
