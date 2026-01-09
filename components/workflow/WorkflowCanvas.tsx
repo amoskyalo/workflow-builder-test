@@ -194,7 +194,6 @@ function WorkflowCanvasInner({
                     snapToGrid
                     snapGrid={[15, 15]}
                     defaultViewport={{ x: 0, y: 0, zoom: 1 }}
-                    fitViewOnInit={false}
                     defaultEdgeOptions={{
                         style: { strokeWidth: 2 },
                         type: "smoothstep",
